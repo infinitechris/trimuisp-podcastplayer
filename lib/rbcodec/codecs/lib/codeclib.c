@@ -101,6 +101,15 @@ void* codec_realloc(void* ptr, size_t size)
 }
 
 #undef strlen
+#undef strcpy
+#undef strcat
+#undef strcmp
+#undef memcpy
+#undef memset
+#undef memcmp
+#undef memchr
+#undef memmove
+
 size_t codec_strlen(const char *s)
 {
     return(ci->strlen(s));

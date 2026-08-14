@@ -30,6 +30,24 @@
 #define DEBUG_H
 #define __SPRINTF_H__
 
+#undef open
+#undef close
+#undef read
+#undef lseek
+#undef memset
+#undef yield
+#undef file_exists
+#undef snprintf
+#undef strcat
+#undef strchr
+#undef strcmp
+#undef strcpy
+#undef strip_extension
+#undef strlen
+#undef strlcpy
+#undef strrchr
+#undef fix_path_part
+
 #define open rb->open
 #define close rb->close
 #define read rb->read

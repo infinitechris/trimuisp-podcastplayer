@@ -23,6 +23,7 @@ lrcplayer.c
 mosaique.c
 main_menu_config.c
 playing_time.c
+podcast_checkpoint.c
 properties.c
 random_folder_advance_config.c
 rb_info.c

@@ -6,6 +6,7 @@
 chopper.c
 clix.c
 credits.c
+podcast_checkpoint.c
 properties.c
 random_folder_advance_config.c
 search.c
